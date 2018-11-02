@@ -1,0 +1,6 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: generic-simulator
+  name: generic-simulator
+  memory: 64M
+  stack: cflinuxfs2
